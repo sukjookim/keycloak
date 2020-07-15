@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  web:
+    build: .
+    image: custom-go:0.1
+    ports:
+    - "8081:8081"
